@@ -7,13 +7,13 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    compileSdkVersion 25
+    compileSdkVersion 26
     buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "com.arellomobile.mvp.sample.github"
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -31,7 +31,7 @@ android {
     }
 }
 
-def support = '25.1.0'
+def support = '26.1.0'
 def retrofit = '2.1.0'
 def dagger = '2.7'
 def butterKnife = "8.4.0"
